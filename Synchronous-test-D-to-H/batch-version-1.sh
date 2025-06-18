@@ -3,7 +3,6 @@
 #SBATCH --partition=gpu
 #SBATCH --qos=default
 #SBATCH --time 00:30:00                                              
-#SBATCH --account=p200776
 #SBATCH --exclusive 
 
 module load env/release/2023.1
